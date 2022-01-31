@@ -7,5 +7,5 @@ services:
     image: ghcr.io/williamjacksn/radicale
     init: true
     volumes:
-      ./:/home/python/docker-radicale
+      - ./:/home/python/docker-radicale
     working_dir: /home/python/docker-radicale
