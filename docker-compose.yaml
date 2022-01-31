@@ -9,3 +9,12 @@ services:
     volumes:
       - ./:/home/python/docker-radicale
     working_dir: /home/python/docker-radicale
+
+  shell:
+    entrypoint:
+      - /bin/sh
+    image: ghcr.io/williamjacksn/radicale
+    init: true
+    volumes:
+      - ./:/home/python/docker-radicale
+    working_dir: /home/python/docker-radicale
