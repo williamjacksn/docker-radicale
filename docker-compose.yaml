@@ -1,0 +1,11 @@
+services:
+  pip-compile:
+    entrypoint:
+      - /bin/sh
+      - -c
+      - /home/python/venv/bin/pip install pip-tools && /home/python/venv/bin/pip-compile --upgrade
+    image: ghcr.io/williamjacksn/radicale
+    init: true
+    volumes:
+      ./:/home/python/docker-radicale
+    working_dir: /home/python/docker-radicale
