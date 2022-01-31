@@ -16,5 +16,7 @@ ENV PATH="/home/python/venv/bin:${PATH}" \
     PYTHONUNBUFFERED="1" \
     TZ="Etc/UTC"
 
+ENTRYPOINT ["/home/python/venv/bin/radicale"]
+
 LABEL org.opencontainers.image.authors="William Jackson <william@subtlecoolness.com>" \
       org.opencontainers.image.source="https://github.com/williamjacksn/docker-radicale"
