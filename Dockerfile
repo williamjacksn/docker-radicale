@@ -20,4 +20,4 @@ ENTRYPOINT ["/home/python/venv/bin/radicale"]
 
 LABEL org.opencontainers.image.authors="William Jackson <william@subtlecoolness.com>" \
       org.opencontainers.image.source="https://github.com/williamjacksn/docker-radicale" \
-      org.opencontainers.image.version="2022.1"
+      org.opencontainers.image.version="2022.2"
