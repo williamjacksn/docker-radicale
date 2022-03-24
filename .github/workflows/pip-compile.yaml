@@ -17,7 +17,7 @@ jobs:
           docker compose run --user="$(id -u):$(id -g)" -T pip-compile
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3.14.0
+        uses: peter-evans/create-pull-request@v4
         with:
           body: Update requirements with `pip-compile --upgrade`
           branch: pip-compile
