@@ -1,4 +1,4 @@
-FROM python:3.10.5-alpine3.15
+FROM python:3.10.5-alpine3.16
 
 # install apache2-utils to get the htpasswd command
 RUN /sbin/apk add --no-cache apache2-utils
