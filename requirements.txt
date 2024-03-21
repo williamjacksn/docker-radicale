@@ -12,7 +12,7 @@ python-dateutil==2.9.0.post0
     # via
     #   radicale
     #   vobject
-radicale==3.1.8
+radicale==3.1.9
     # via -r requirements.in
 six==1.16.0
     # via python-dateutil
