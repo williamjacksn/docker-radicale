@@ -4,8 +4,6 @@
 #
 #    pip-compile
 #
---extra-index-url https://alpine-wheels.github.io/index
-
 defusedxml==0.7.1
     # via radicale
 passlib==1.7.4

@@ -1,9 +1,12 @@
-FROM python:3.12.2-alpine3.19
+FROM python:3.12-slim
 
 # install apache2-utils to get the htpasswd command
-RUN /sbin/apk add --no-cache apache2-utils
+ARG DEBIAN_FRONTEND=noninteractive
+RUN /usr/bin/apt-get update \
+ && /usr/bin/apt-get install --assume-yes apache2-utils \
+ && rm -rf /var/lib/apt/lists/*
 
-RUN /usr/sbin/adduser -g python -D python
+RUN /usr/sbin/useradd --create-home --shell /bin/bash --user-group python
 
 USER python
 RUN /usr/local/bin/python -m venv /home/python/venv
