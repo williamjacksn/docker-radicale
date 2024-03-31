@@ -16,5 +16,5 @@ radicale==3.1.9
     # via -r requirements.in
 six==1.16.0
     # via python-dateutil
-vobject==0.9.6.1
+vobject==0.9.7
     # via radicale
