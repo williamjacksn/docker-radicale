@@ -14,9 +14,13 @@ python-dateutil==2.9.0.post0
     # via
     #   radicale
     #   vobject
+pytz==2024.2
+    # via vobject
 radicale==3.2.3
     # via -r requirements.in
 six==1.16.0
-    # via python-dateutil
-vobject==0.9.7
+    # via
+    #   python-dateutil
+    #   vobject
+vobject==0.9.8
     # via radicale
