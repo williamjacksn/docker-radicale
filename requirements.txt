@@ -16,7 +16,7 @@ python-dateutil==2.9.0.post0
     #   vobject
 pytz==2024.2
     # via vobject
-radicale==3.2.3
+radicale==3.3.0
     # via -r requirements.in
 six==1.16.0
     # via
