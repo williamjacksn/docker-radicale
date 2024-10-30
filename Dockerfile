@@ -1,4 +1,4 @@
-FROM python:3.13-slim
+FROM python:3.12-slim
 
 # install apache2-utils to get the htpasswd command
 ARG DEBIAN_FRONTEND=noninteractive
