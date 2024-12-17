@@ -20,5 +20,5 @@ six==1.17.0
     # via
     #   python-dateutil
     #   vobject
-vobject==0.9.8
+vobject==0.9.9
     # via radicale
