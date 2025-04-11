@@ -28,7 +28,7 @@ six==1.17.0
     # via
     #   python-dateutil
     #   vobject
-urllib3==2.3.0
+urllib3==2.4.0
     # via requests
 vobject==0.9.9
     # via radicale
