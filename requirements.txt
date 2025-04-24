@@ -20,7 +20,7 @@ python-dateutil==2.9.0.post0
     # via vobject
 pytz==2025.2
     # via vobject
-radicale==3.5.1
+radicale==3.5.2
     # via -r requirements.in
 requests==2.32.3
     # via radicale
