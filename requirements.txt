@@ -22,7 +22,7 @@ pytz==2025.2
     # via vobject
 radicale==3.5.4
     # via -r requirements.in
-requests==2.32.3
+requests==2.32.4
     # via radicale
 six==1.17.0
     # via
