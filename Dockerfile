@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:0.7.20-bookworm-slim
+FROM ghcr.io/astral-sh/uv:0.7.21-bookworm-slim
 
 # install apache2-utils to get the htpasswd command
 ARG DEBIAN_FRONTEND=noninteractive
