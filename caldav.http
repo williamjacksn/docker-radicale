@@ -1,0 +1,12 @@
+### options
+OPTIONS https://{{host}}/
+Authorization: Basic {{username}} {{password}}
+
+### propfind
+PROPFIND https://{{host}}/{{username}}/
+Authorization: Basic {{username}} {{password}}
+Depth: 1
+
+### report
+REPORT https://{{host}}/{{username}}/{{collection-id}}/
+Authorization: Basic {{username}} {{password}}
