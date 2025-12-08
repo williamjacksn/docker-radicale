@@ -70,7 +70,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "radicale", specifier = ">=3.5.4" }]
+requires-dist = [{ name = "radicale", specifier = ">=3.5.9" }]
 
 [[package]]
 name = "idna"
