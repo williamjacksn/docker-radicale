@@ -70,7 +70,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "radicale", specifier = ">=3.7.1" }]
+requires-dist = [{ name = "radicale", specifier = ">=3.7.2" }]
 
 [[package]]
 name = "idna"
@@ -88,15 +88,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/2a/f6/210563eef148773ef835d21c0fa1e8a43c5b10fceb1f63d5d650635b81da/libpass-1.9.3.tar.gz", hash = "sha256:7830b9323d9ba96a841ad698a8dec1d43a2b0b7f1c855c76772e7972c1c6d959", size = 692901, upload-time = "2025-10-09T14:26:28.363Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ed/a6/ff00d926a9f4ece9e0732bcea1c3e8e9280390f48cec53f237e21f220082/libpass-1.9.3-py3-none-any.whl", hash = "sha256:3cbeb14d22086660e92c30d787ea981973d67394e81c8c870e1a83cfe1c84353", size = 307118, upload-time = "2025-10-09T14:26:25.551Z" },
-]
-
-[[package]]
-name = "packaging"
-version = "26.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4", size = 143416, upload-time = "2026-01-21T20:50:39.064Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
 ]
 
 [[package]]
@@ -131,19 +122,18 @@ wheels = [
 
 [[package]]
 name = "radicale"
-version = "3.7.1"
+version = "3.7.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "defusedxml" },
     { name = "libpass" },
-    { name = "packaging" },
     { name = "pika" },
     { name = "requests" },
     { name = "vobject" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/53/74/38e450ca778d4f7d69a0789f76d7442db85a40cd7bffb58e4d392a621b98/radicale-3.7.1.tar.gz", hash = "sha256:cabb87ad9f0b6aaa724f0621810c0e0c0421ef04ef2617e988d9da63859cd8ad", size = 235225, upload-time = "2026-04-12T05:45:42.324Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e0/60/e14d22d2549ac8aef86685be855b455724a45a40ca633efabbd6326bc8e8/radicale-3.7.2.tar.gz", hash = "sha256:2c61de17ee4105a998dd250a79732b83313f74aa396bd40b71e7438b695e0edc", size = 240753, upload-time = "2026-04-29T19:14:57.912Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d7/83/4f5775d412865f5e06f65295ac5a909ed406668facf9572e289d485272db/radicale-3.7.1-py3-none-any.whl", hash = "sha256:f0d075092b8a30d123d4da0448cd26f46eb0d5f022ed56644fb5101491bbcef2", size = 278819, upload-time = "2026-04-12T05:45:40.492Z" },
+    { url = "https://files.pythonhosted.org/packages/77/cb/f271c0033d97ca2daf8fb1e08ca918ad04b3020c62fb2ccb641c295b1a31/radicale-3.7.2-py3-none-any.whl", hash = "sha256:ee045ba5f310ff75aac974b6463ad531177e3f26e5b27e49156f697c6376ce87", size = 284326, upload-time = "2026-04-29T19:14:56.041Z" },
 ]
 
 [[package]]
