@@ -70,7 +70,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "radicale", specifier = ">=3.7.2" }]
+requires-dist = [{ name = "radicale", specifier = ">=3.7.3" }]
 
 [[package]]
 name = "idna"
@@ -122,7 +122,7 @@ wheels = [
 
 [[package]]
 name = "radicale"
-version = "3.7.2"
+version = "3.7.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "defusedxml" },
@@ -131,9 +131,9 @@ dependencies = [
     { name = "requests" },
     { name = "vobject" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e0/60/e14d22d2549ac8aef86685be855b455724a45a40ca633efabbd6326bc8e8/radicale-3.7.2.tar.gz", hash = "sha256:2c61de17ee4105a998dd250a79732b83313f74aa396bd40b71e7438b695e0edc", size = 240753, upload-time = "2026-04-29T19:14:57.912Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d6/b4/8e9fef4dd42061219e90ef3fe57dc63193119715a5a51d557135e330f2a9/radicale-3.7.3.tar.gz", hash = "sha256:dc4f2354045443e36e67950586ac105c6d48c4d48ad10ddfc2c6f32aafea0600", size = 244753, upload-time = "2026-05-14T06:55:54.754Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/77/cb/f271c0033d97ca2daf8fb1e08ca918ad04b3020c62fb2ccb641c295b1a31/radicale-3.7.2-py3-none-any.whl", hash = "sha256:ee045ba5f310ff75aac974b6463ad531177e3f26e5b27e49156f697c6376ce87", size = 284326, upload-time = "2026-04-29T19:14:56.041Z" },
+    { url = "https://files.pythonhosted.org/packages/28/ab/34391e6f4f79ef9b22b9a6be4de90092d05ccb18ee562e3b22daa9100140/radicale-3.7.3-py3-none-any.whl", hash = "sha256:0760d539c1da8c346ed3aacfdabe7115527dadcdc6ef440b1e9569abadf9646f", size = 287440, upload-time = "2026-05-14T06:55:52.914Z" },
 ]
 
 [[package]]
