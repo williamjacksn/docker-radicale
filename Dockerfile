@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:0.11.25-trixie-slim
+FROM ghcr.io/astral-sh/uv:0.11.32-trixie-slim
 
 # install apache2-utils to get the htpasswd command
 ARG DEBIAN_FRONTEND=noninteractive
